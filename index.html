@@ -177,8 +177,23 @@
 
         <!-- Korean Syllable Table -->
         <h3 class="title is-4">Korean Syllable Examples</h3>
-        <div style="overflow-x: auto; max-width: 100%;">
-          <table class="table is-bordered is-striped is-hoverable" style="min-width: 1200px;">
+        <style>
+          .syllable-table video {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            background: #000;
+          }
+          .syllable-table th, .syllable-table td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 4px;
+            white-space: nowrap;
+          }
+        </style>
+        <div style="overflow-x: scroll; max-width: 100%;">
+          <table class="table is-bordered is-striped is-hoverable syllable-table" style="width: max-content;">
             <thead>
               <tr>
                 <th></th>
